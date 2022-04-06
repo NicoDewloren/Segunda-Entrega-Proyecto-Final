@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetShop Neki</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon" />
+  </head>
+  <body class="layout">
+    <!-- HEADER HEADER HEADER  -->
+    <header class="header">
+      <img class="nav__logo" src="imgs/logo-pagina.png" alt="Logo PetShop" />
+      <nav>
+        <ul class="nav__list">
+          <a href="index.html"><li>Inicio</li></a>
+          <a href="contacto.html"><li>Contacto</li></a>
+          <a href="Perros.html"><li>Perros</li></a>
+          <a href="Gatos.html"><li>Gatos</li></a>
+          <a href="FAQ.html"><li>FAQ</li></a>
+        </ul>
+      </nav>
+    </header>
+    <!-- SECTION SECTION SECTION -->
+    <main class="hero__contact">
+      <h3 class="asd">Rellena el formulario indicando el producto de tu interés o las dudas, a la brevedad nuestro equipo se pondrá en contacto con vos.</h3>
+       <form class="contact" action="">
+         <div class="form">
+            <label class="form__items" for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" />
+            <br />
+            <label class="form__items" for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" id="Apellido" />
+            <br />
+            <label class="form__items" for="Email">Email</label>
+            <input type="text" name="Email" id="Email" required />
+            <br />
+            <label class="form__items" for="Apellido">Telefono</label>
+            <input type="text" name="Telefono" id="Telefono"  />
+            <div>Me gustaria recibir noticias sobre productos y promociones de Neki</div>
+            <input 
+              type="checkbox"
+              name="Quiere recibir ofertas"
+              value="1"
+              required
+            />
+            <br />
+            <label class="form__items" for="interes en productos"></label>
+              ¿En cuál de nuestros productos estas interesad@?
+            </label>
+            <br />
+            <textarea class="form__items"
+              name="¿En que producto estas interesad@?"
+              id="¿En que producto estas interesad@?"
+              cols="25"
+              rows="8"
+            ></textarea>
+            <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" name="Limpiar formulario" id="" />
+          </div> 
+      </form>
+    </main>
+    <section class="contact__section">
+        <article class="contact__card">
+             <h1 class="contact__title">Telefonos</h1>
+          <p class="contact__text">
+          +54 11 2445-3415
+          <br>
+          +54 11 2653-3513
+          <br>
+          +54 11 2851-2591
+          </p>
+       </article>
+       <article class="contact__card">
+          <h1 class="contact__title">Email</h1>
+          <p class="contact__text">
+          neki.petshop@gmail.com 
+          <br>
+          neki.accesorios@gmail.com
+          </p>
+       </article>
+       <article class="contact__card">
+        <h1 class="contact__title">Ubicacion</h1>
+        <p class="contact__text">
+        Weizman 605, Moron. Buenos Aires.
+        <br>
+        Casares 205, Bella Vista. Buenos Aires
+        <br>
+        Orlando 701, CABA. Buenos Aires
+        <br>
+        Casique 904, Lanus. Buenos Aires
+        </p>
+     </article>
+    </section>
+  <!-- footer FOOTER -->
+  <footer class="footer">
+    <div>Redes Sociales</div>
+    <div>
+      <a target="__blank" href="http://www.instagram.com/accesorios.neki"
+        ><img
+          class="redes__icon"
+          src="imgs/instagram (1).png"
+          alt="Instagram"
+      /></a>
+      <a target="__blank" href="http://www.facebook.com/accesorios.neki"
+        ><img class="redes__icon" src="imgs/facebook (1).png" alt="Facebook"
+      /></a>
+      <a target="__blank" href="http://www.youtube.com/accesorios.neki"
+        ><img class="redes__icon" src="imgs/youtube.png" alt="Youtube"
+      /></a>
+    </div>
+    <div>
+      Creado por
+      <a
+        class="dev__name"
+        target="_blank"
+        href="http://www.instagram.com/niico.pereyra"
+        >Nicolas Pereyra</a
+      >
+    </div>
+  </footer>
+</body>
+</html>
