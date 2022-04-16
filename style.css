@@ -241,7 +241,7 @@ svg {
     color: #e8eddf;
     margin-bottom: 0.5rem;
     margin-left: 1.5em;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   main,
@@ -283,20 +283,18 @@ svg {
     background-color: #242423;
   }
   .hero__title {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
   }
 
   .hero__img {
-    max-width: 60%;
+    max-width: 100%;
   }
 
   .hero__text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    padding-top: 1rem;
-    padding-left: 2rem;
   }
 
   .info {
@@ -309,20 +307,20 @@ svg {
     gap: 5rem;
   }
   .info__card {
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     background-color: #242423;
     color: #e8eddf;
-    gap: 4rem;
+    gap: 2rem;
     border-radius: 25px;
   }
 
   .info__card h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .info__card p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 0.3rem;
   }
 
@@ -331,13 +329,13 @@ svg {
     background-color: #242423;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    font-size: 1rem;
+    align-items: center;
+    font-size: 0.8rem;
   }
 
   .redes__icon {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -450,14 +448,14 @@ svg {
   }
 
   .hero__contact h3 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     margin: 1rem 1rem 1rem 1rem;
     color: #e8eddf;
     align-self: center;
   }
 
   .contact {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
   }
 
   .contact__section {
@@ -476,11 +474,11 @@ svg {
   }
 
   .contact__title {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .contact__text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
@@ -597,19 +595,19 @@ svg {
     display: flex;
     flex-direction: column;
     background-color: #242423;
-    margin: 2rem 0.5rem 1rem 0.5rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
     border-radius: 20px;
     color: #cfdbd5;
     align-items: center;
   }
 
   .dog__title {
-    font-size: 4rem;
+    font-size: 1rem;
     text-align: center;
     margin: 1rem 0.2rem 1rem 0.2rem;
   }
   .dog__text {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     margin: 0 0.2rem 1rem 0.2rem;
   }
@@ -623,19 +621,19 @@ svg {
   }
 
   .product__card {
-    max-width: 500px;
+    max-width: 400px;
     margin: 2rem;
   }
   .product__img {
-    width: 50%;
+    width: 40%;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
   .product__title {
-    font-size: 2rem;
+    font-size: 0.5rem;
   }
   .product__text {
-    font-size: 1.5rem;
+    font-size: 0.2rem;
     margin: 0.5rem;
     text-align: center;
   }
@@ -750,12 +748,12 @@ svg {
   }
 
   .dog__title {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     margin: 1rem 0.2rem 1rem 0.2rem;
   }
   .dog__text {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     margin: 0 0.2rem 1rem 0.2rem;
   }
@@ -769,19 +767,19 @@ svg {
   }
 
   .product__card {
-    max-width: 500px;
+    max-width: 400px;
     margin: 2rem;
   }
   .product__img {
-    width: 50%;
+    width: 40%;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
   .product__title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .product__text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0.5rem;
     text-align: center;
   }
@@ -791,7 +789,7 @@ svg {
     background-color: #f5cb5c;
     border-radius: 25px;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -900,12 +898,12 @@ svg {
 
 @media (min-width: 991px) {
   .faq__title {
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0.5rem;
     color: #cfdbd5;
   }
   .faq__text {
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 0 1rem 1rem 1rem;
     color: #e8eddf;
   }
@@ -920,30 +918,31 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 4rem 2rem 4rem 2rem;
+    margin: auto;
     border-radius: 20px;
+    margin: 2rem 1rem 2rem 1rem;
   }
 
   .faq__cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .faq__card-title {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0.2rem;
     color: #e8eddf;
   }
 
   .faq__card-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 0 0.5rem 0.8rem 0.5rem;
     color: #e8eddf;
   }
 
   .faq__card-title2 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0.2rem;
     color: #e8eddf;
     padding: 1rem;
