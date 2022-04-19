@@ -796,6 +796,13 @@ svg {
 
 /* FAQ FAQ FAQ */
 
+.faq__hero {
+  grid-area: main;
+}
+
+.faq__info {
+  grid-area: section;
+}
 .faq__nosotros {
   background-color: #242423;
   display: flex;
@@ -814,26 +821,6 @@ svg {
 .faq__text {
   font-size: 1rem;
   padding: 0 1rem 1rem 1rem;
-  color: #e8eddf;
-}
-
-.faq__card {
-  background-color: #242423;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 1rem 2rem 1rem;
-  border-radius: 20px;
-}
-
-.faq__card-img {
-  width: 5%;
-  margin: 0.2rem;
-}
-
-.faq__card-title {
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
   color: #e8eddf;
 }
 
